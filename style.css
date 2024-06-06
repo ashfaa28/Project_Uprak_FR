@@ -1,0 +1,14 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+#video {
+  width: 500px; /* Adjust this value to change the size of the square */
+  height: 500px; /* This should be the same as the width for a square */
+  object-fit: cover; /* This ensures the video maintains its aspect ratio while filling the square */
+}
+
