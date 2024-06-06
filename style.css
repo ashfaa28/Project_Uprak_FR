@@ -4,11 +4,31 @@ body {
   align-items: center;
   height: 100vh;
   margin: 0;
+  background-color: #3acc39;
+}
+
+canvas {
+  position: absolute;
 }
 
 #video {
-  width: 500px; /* Adjust this value to change the size of the square */
-  height: 500px; /* This should be the same as the width for a square */
-  object-fit: cover; /* This ensures the video maintains its aspect ratio while filling the square */
+  width: 700px; /*  Mengatur lebar menjadi 700px */
+  height: 700px; /* Mengatur tinggi menjadi 700px */
+  object-fit: cover; /*Memastikan konten video pas dengan kotak yang ditengah */
 }
 
+#CN{
+    width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+    height: auto; /* Menjaga aspek rasio gambar */
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#PPLG{
+  width: 100px; /* Sesuaikan ukuran sesuai kebutuhan */
+  height: auto; /* Menjaga aspek rasio gambar */
+  position: absolute;
+  top: 0;
+  right:  0;
+}
